@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2018.01.16" orientation="orthogonal" renderorder="right-down" width="5" height="5" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" source="roguelikeSheet_transparent.tsx"/>
+ <layer name="Tile Layer 1" width="5" height="5">
+   <data encoding="csv">
+     516,517,346,688,689,
+     744,745,403,574,404,
+     573,574,403,403,575,
+     744,574,574,403,575,
+     459,802,802,460,803
+   </data>
+ </layer>
+</map>

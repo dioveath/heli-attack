@@ -1,0 +1,28 @@
+// Layer.h
+//
+// last-edit-by: <> 
+//
+// Description:
+//
+//////////////////////////////////////////////////////////////////////
+
+#ifndef LAYER_H
+#define LAYER_H 1
+
+
+class Layer {
+
+ public:
+    virtual void update()=0;
+    virtual void render()=0;
+
+ protected:
+    virtual ~Layer() { }
+
+};
+
+
+#endif // LAYER_H
+//////////////////////////////////////////////////////////////////////
+// $Log:$
+//

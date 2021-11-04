@@ -1,0 +1,10 @@
+/.vs
+/Debug
+/build
+/backups
+*.cpp#
+*.pdb
+*.ilk
+*.sln
+*.obj
+*.exe

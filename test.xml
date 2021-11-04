@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<STATES>
+  <MAINMENU>
+    <TEXTURES>
+      <texture filename="assets/button.png" ID="playbutton"/>
+      <texture filename="assets/exit.png" ID="exitbutton"/>
+    </TEXTURES>
+
+    <OBJECTS>
+      <object type="MenuButton" x="100" y="100" width="400" height="100"
+	      textureID="playbutton" numFrames="3" callbackID="1"/>
+      <object type="MenuButton" x="100" y="200" width="400" height="100"
+	      textureID="exitbutton" numFrames="3" callbackID="2"/>
+    </OBJECTS>
+  </MAINMENU>
+
+  <PLAY>
+    <OBJECTS>
+      <object type="World" x="0" y="0" width="0" height="0"
+	      textureID="levels.xml" numFrames="0" callbackID="0"/>
+    </OBJECTS>
+  </PLAY>
+
+  <PAUSE>
+    <TEXTURES>
+      <texture filename="assets/resume.png" ID="resumebutton"/>
+      <texture filename="assets/main.png" ID="mainbutton"/>
+    </TEXTURES>
+
+    <OBJECTS>
+      <object type="MenuButton" x="200" y="100" width="200" height="100"
+	      textureID="mainbutton" numFrames="3" callbackID="1"/>
+      <object type="MenuButton" x="200" y="200" width="200" height="100"
+	      textureID="resumebutton" numFrames="3" callbackID="2"/>
+    </OBJECTS>
+  </PAUSE>
+
+  <LEVELCOMPLETE>
+    <TEXTURES>
+      <texture filename="assets/nextlevel.png" ID="nextlevel"/>
+    </TEXTURES>
+    <OBJECTS>
+      <object type="SDLGameObject" x="300" y="100" width="992" height="357"
+	      textureID="nextlevel" numFrames="0" callbackID="0"/>
+    </OBJECTS>
+  </LEVELCOMPLETE>
+
+  <GAMEOVER>
+    <TEXTURES>
+      <texture filename="assets/gameover1.png" ID="gameovertext"/>
+    </TEXTURES>
+    <OBJECTS>
+      <object type="SDLGameObject" x="200" y="100" width="468" height="273"
+	      textureID="gameovertext" numFrames="0" callbackID="0"/>
+    </OBJECTS>
+  </GAMEOVER>
+</STATES>
+
