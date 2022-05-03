@@ -2,7 +2,7 @@
 2D Shooter game using SDL Library.
 
 <p align="center">
-	<img alt="" src="Heli-Attack.png"/>
+	<img alt="" src="Heli-Attack.png" width="50%"/>
 </p>
 
 ### Features
