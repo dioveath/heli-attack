@@ -11,7 +11,7 @@
 
 #include <SDL2/SDL_Mixer.h>
 #include <map>
-
+#include <string>
 
 class AudioManager {
 

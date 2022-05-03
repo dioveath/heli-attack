@@ -10,8 +10,9 @@
 // $Log:$ //
 //
 
-#include "Game.h"
 
+#define SDL_MAIN_HANDLED
+#include "Game.h"
 
 const int FPS = 60;
 const int DELAY_TIME = 1000.0f / FPS;

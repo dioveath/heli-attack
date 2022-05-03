@@ -10,7 +10,7 @@
 #include "AudioManager.h"
 
 #include <iostream>
-
+#include <string>
 
 // $Log:$ //
 //

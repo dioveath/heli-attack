@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<LEVELS>
-    <level filename="level1.tmx" id="0" />
-    <level filename="level2.tmx" id="1" />
-    <level filename="level3.tmx" id="2" />
-    <level filename="level4.tmx" id="3" />
-    <currentlevel id="1" />
-</LEVELS>

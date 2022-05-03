@@ -36,8 +36,6 @@ class GameStateMachine {
 				   and only after that entering to 
 				   this state
 				 */
-
-
 };
 
 
